@@ -15,12 +15,12 @@ const Get = () => {
   }, [])
 
   async function handleDelete(e) {
-    e.preventDefault()
+    // e.preventDefault()
     await axios.post(`${baseURL}/del`, { title: e.target.name })
       .then(response => {
         console.log(response.data);
       })
-    window.location.reload(false)
+    // window.location.reload(false)
   }
 
   function handleUpdate(e) {

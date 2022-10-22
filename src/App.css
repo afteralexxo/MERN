@@ -184,6 +184,8 @@ button:hover {
 }
 
 .post-card {
+  color: #FFB30D;
+  border: 1px solid #B4D2D9;
   word-wrap: break-word;
   width: 150px;
   height: 200px;
@@ -195,4 +197,17 @@ button:hover {
 
 .post-body {
   color: white;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+footer a i{
+  color: #FFB30D;
+  margin-right: 5em;
+  transform: scale(1.6);
+  background-color: #735D58;
 }
